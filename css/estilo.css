@@ -1,0 +1,63 @@
+.polo {
+    background-color: rgb(72, 141, 177);
+    text-align: left;
+    font-size: larger;
+}
+
+.tituloCentrado {
+    text-align: center;
+}
+
+.logo {
+    width: 230px;
+}
+
+.menuCentrado {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fondoTexto {
+    background-color: rgb(11, 93, 147);
+    height: max-content;
+    text-transform: uppercase;
+}
+
+.letraReceta {
+    color: bisque;
+    list-style: square;
+    grid-area: receta;
+}
+
+.letraRecetacolor {
+    color: bisque;
+    grid-area: txt;
+}
+
+.footer {
+    background-color: rgba(30, 0, 255, 0.83);
+    text-transform: uppercase;
+}
+
+li {
+    padding: 5px;
+}
+
+.gridConteiner {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        " lista lista"
+        "img txt"
+        "receta receta"
+}
+
+.listarandom {
+    grid-area: lista;
+}
+
+img {
+    grid-area: img;
+}
